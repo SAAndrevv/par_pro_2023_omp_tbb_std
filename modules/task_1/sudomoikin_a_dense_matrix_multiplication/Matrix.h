@@ -3,6 +3,8 @@
 #ifndef MODULES_TASK_1_SUDOMOIKIN_A_DENSE_MATRIX_MULTIPLICATION_MATRIX_H_
 #define MODULES_TASK_1_SUDOMOIKIN_A_DENSE_MATRIX_MULTIPLICATION_MATRIX_H_
 
+#include <vector>
+
 class Matrix {
  private:
     int rows;
