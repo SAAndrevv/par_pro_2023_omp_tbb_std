@@ -1,6 +1,6 @@
 // Copyright 2023 Sudomoykin Andrey
 #include <gtest/gtest.h>
-#include "../../../modules/task_1/sudomoykin_a_mat_multi_strassen/Matrix.h"
+#include "../../../modules/task_1/sudomoikin_a_dense_matrix_multiplication/Matrix.h"
 
 TEST(MatrixTest, ConstructorAndAccessors) {
     int n = 10;
