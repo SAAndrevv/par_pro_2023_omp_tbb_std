@@ -18,7 +18,7 @@ class Matrix {
 
 
  public:
-    Matrix(int rows_, int cols_, std::vector<double> vlaues);
+    Matrix(int rows_, int cols_, const std::vector<double>& vlaues);
 
     Matrix(int rows, int cols);
 

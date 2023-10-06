@@ -5,7 +5,7 @@
 #include "../../../modules/task_1/sudomoikin_a_dense_matrix_multiplication/Matrix.h"
 
 
-Matrix::Matrix(int rows_, int cols_, std::vector<double> vlaues):
+Matrix::Matrix(int rows_, int cols_, const std::vector<double>& vlaues):
     rows(rows_), cols(cols_), data(vlaues) {}
 
 Matrix::Matrix(int rows, int cols) : rows(rows), cols(cols) {
