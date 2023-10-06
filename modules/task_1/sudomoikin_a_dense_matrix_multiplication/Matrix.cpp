@@ -1,6 +1,6 @@
 // Copyright 2023 Sudomoykin Andrey
 #include <algorithm>
-#include "../../../modules/task_1/sudomoykin_a_mat_multi_strassen/Matrix.h"
+#include "../../../modules/task_1/sudomoikin_a_dense_matrix_multiplication/Matrix.h"
 
 
 Matrix::Matrix(int rows_, int cols_, std::vector<double> vlaues):
