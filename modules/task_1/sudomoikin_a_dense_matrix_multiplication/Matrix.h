@@ -3,10 +3,6 @@
 #ifndef MODULES_TASK_1_SUDOMOIKIN_A_DENSE_MATRIX_MULTIPLICATION_MATRIX_H_
 #define MODULES_TASK_1_SUDOMOIKIN_A_DENSE_MATRIX_MULTIPLICATION_MATRIX_H_
 
-#include <vector>
-#include <cstdlib>
-#include <ctime>
-
 class Matrix {
  private:
     int rows;
