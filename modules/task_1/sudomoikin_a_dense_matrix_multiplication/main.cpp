@@ -8,6 +8,7 @@ TEST(MatrixTest, ConstructorAndAccessors) {
     EXPECT_EQ(mat.getRows(), n);
     EXPECT_EQ(mat.getCols(), n);
 
+
     // Check if values are within the expected range (0 to 1)
     for (int i = 0; i < mat.getRows(); ++i) {
         for (int j = 0; j < mat.getCols(); ++j) {
