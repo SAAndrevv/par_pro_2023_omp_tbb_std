@@ -174,8 +174,7 @@ Matrix Matrix::strassenMultiplyOmp(const Matrix& other) const {
             }
         }
 
-#pragma omp parallel default(none) shared(A11, A12, A21, A22, B11, B12,
-B21, B22)
+#pragma omp parallel shared(A11, A12, A21, A22, B11, B12, B21, B22)
 #pragma omp sections
         {
 #pragma omp section
